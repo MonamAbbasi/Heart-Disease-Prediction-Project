@@ -1,6 +1,6 @@
-Heart Disease Prediction Using Machine Learning
+**Heart Disease Prediction Using Machine Learning**
 
-Project Overview
+**Project Overview**
 
 This project focuses on predicting the presence of heart disease using Machine Learning techniques. Multiple machine learning algorithms were implemented, trained, and evaluated to compare their performance and identify the most suitable model for heart disease prediction.
 
@@ -8,13 +8,13 @@ The project includes data preprocessing, feature engineering, categorical data e
 
 ---
 
-Dataset Information
+**Dataset Information**
 
 Dataset Name: Heart Disease Dataset
 
 Dataset Shape: 1000 Rows × 16 Columns
 
-Features
+**Features**
 
 - Age
 - Gender
@@ -32,7 +32,7 @@ Features
 - Exercise Induced Angina
 - Chest Pain Type
 
-Target Variable
+**Target Variable**
 
 - Heart Disease
   - 0 = No Heart Disease
@@ -40,13 +40,13 @@ Target Variable
 
 ---
 
-Data Preprocessing
+**Data Preprocessing**
 
 The following preprocessing techniques were applied:
 
-Categorical Encoding
+**Categorical Encoding**
 
-Label Encoding
+**Label Encoding**
 
 Applied on binary categorical features:
 
@@ -57,19 +57,19 @@ Applied on binary categorical features:
 - Obesity
 - Exercise Induced Angina
 
-One-Hot Encoding
+**One-Hot Encoding**
 
 Applied on multi-category features:
 
 - Smoking
 - Chest Pain Type
 
-Train-Test Split
+**Train-Test Split**
 
 - Training Data: 80%
 - Testing Data: 20%
 
-Feature Scaling
+**Feature Scaling**
 
 StandardScaler was applied before training:
 
@@ -80,12 +80,12 @@ StandardScaler was applied before training:
 
 Machine Learning Algorithms Implemented
 
-Regression Models
+**Regression Models**
 
 1. Simple Linear Regression
 2. Multiple Linear Regression
 
-Classification Models
+**Classification Models**
 
 3. Logistic Regression
 4. Decision Tree Classifier
@@ -97,7 +97,7 @@ Classification Models
 
 ---
 
-Model Performance
+**Model Performance**
 
 Regression Results
 
@@ -105,7 +105,7 @@ Model| Score
 Simple Linear Regression| R² = 0.43
 Multiple Linear Regression| R² = 0.58
 
-Classification Results
+**Classification Results**
 
 Model| Accuracy
 Logistic Regression| 87%
@@ -118,9 +118,9 @@ SVM (RBF Kernel)| 86%
 
 ---
 
-Feature Analysis
+**Feature Analysis**
 
-Correlation Analysis
+**Correlation Analysis**
 
 The strongest correlations with Heart Disease were:
 
@@ -140,7 +140,7 @@ These results indicate that Age and Cholesterol are the most important predictor
 
 ---
 
-Key Findings
+**Key Findings**
 
 - Age showed the strongest relationship with heart disease.
 - Cholesterol was the second most influential feature.
@@ -154,25 +154,25 @@ Key Findings
 
 ---
 
-Model Comparison Summary
+**Model Comparison Summary**
 
-Best Accuracy
+**Best Accuracy**
 
 - Decision Tree: 100%
 - Random Forest: 100%
 
-Best Generalization
+**Best Generalization**
 
 - Linear SVM
 - Logistic Regression
 
-Lowest Performance
+**Lowest Performance**
 
 - K-Nearest Neighbors (KNN)
 
 ---
 
-Technologies Used
+**Technologies Used**
 
 - Python
 - Pandas
@@ -184,7 +184,7 @@ Technologies Used
 
 ---
 
-Concepts Applied
+**Concepts Applied**
 
 - Data Preprocessing
 - Label Encoding
@@ -198,7 +198,7 @@ Concepts Applied
 - Model Evaluation
 - Accuracy Comparison
 ---
-Author
-Monam Abbasi
+**Author**
+**Monam Abbasi**
 BS Software Engineering
 Machine Learning Project – Heart Disease Prediction
