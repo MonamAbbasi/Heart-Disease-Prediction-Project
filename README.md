@@ -94,7 +94,7 @@ Machine Learning Algorithms Implemented
 7. Support Vector Machine (Linear Kernel)
 8. Support Vector Machine (Polynomial Kernel)
 9. Support Vector Machine (RBF Kernel)
-
+10. Naive Bayes
 ---
 
 **Model Performance**
@@ -115,6 +115,7 @@ KNN (Best K = 15)| 72.5%
 SVM (Linear Kernel)| 86%
 SVM (Polynomial Kernel)| 80%
 SVM (RBF Kernel)| 86%
+Naive Bayes| 91%
 
 ---
 
@@ -151,7 +152,7 @@ These results indicate that Age and Cholesterol are the most important predictor
 - Linear SVM demonstrated excellent generalization with very similar training and testing accuracy.
 - Polynomial SVM showed signs of overfitting due to a large gap between training and testing accuracy.
 - RBF SVM performed better than Polynomial SVM but did not outperform Linear SVM on the test set.
-
+- Naive Bayes achieved strong classification performance with 91% accuracy.
 ---
 
 **Model Comparison Summary**
