@@ -201,5 +201,5 @@ These results indicate that Age and Cholesterol are the most important predictor
 ---
 **Author**
 **Monam Abbasi**
-BS Software Engineering
+BS Software Engineering Student.
 Machine Learning Project – Heart Disease Prediction
